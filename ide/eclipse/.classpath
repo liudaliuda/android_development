@@ -7,12 +7,9 @@
 	<classpathentry kind="src" path="packages/apps/Calendar/extensions_src"/>
 	<classpathentry kind="src" path="packages/apps/Calculator/src"/>
 	<classpathentry kind="src" path="packages/apps/CertInstaller/src"/>
-	<classpathentry kind="src" path="packages/apps/CMAccount/src"/>
 	<classpathentry kind="src" path="packages/apps/CMFileManager/libs/android-syntax-highlight/src"/>
 	<classpathentry kind="src" path="packages/apps/CMFileManager/libs/color-picker-view/src"/>
 	<classpathentry kind="src" path="packages/apps/CMFileManager/src"/>
-	<classpathentry kind="src" path="packages/apps/CMUpdater/src"/>
-	<classpathentry kind="src" path="packages/apps/CMWallpapers/src"/>
 	<classpathentry kind="src" path="packages/apps/Contacts/src"/>
 	<classpathentry kind="src" path="packages/apps/ContactsCommon/src"/>
 	<classpathentry kind="src" path="packages/apps/DeskClock/src"/>
@@ -27,6 +24,10 @@
 	<classpathentry kind="src" path="packages/apps/KeyChain/src"/>
 	<classpathentry kind="src" path="packages/apps/LockClock/src"/>
 	<classpathentry kind="src" path="packages/apps/Mms/src"/>
+	<classpathentry kind="src" path="packages/apps/MoKeeHelper/src"/>
+	<classpathentry kind="src" path="packages/apps/MoKeeLauncher/src"/>
+	<classpathentry kind="src" path="packages/apps/MoKeeSetupWizard/src"/>
+	<classpathentry kind="src" path="packages/apps/Notepad/src"/>
 	<classpathentry kind="src" path="packages/apps/PackageInstaller/src"/>
 	<classpathentry kind="src" path="packages/apps/Phone/src"/>
 	<classpathentry kind="src" path="packages/apps/PhoneCommon/src"/>
