@@ -47,12 +47,14 @@ subdirs += \
 	frameworks/base \
 	frameworks/compile \
 	frameworks/native \
+	frameworks/rs \
 	system/core/adb \
 	system/core/fastboot \
 	system/core/libcutils \
 	system/core/liblog \
 	system/core/libsparse \
 	system/core/libzipfile \
+	system/core/libutils \
 	system/extras/ext4_utils
 
 # -----

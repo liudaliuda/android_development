@@ -35,6 +35,7 @@ include $(TOPDIR)sdk/build/windows_sdk_tools.mk
 # the topdir/development directory and are somehow platform-dependent.
 WIN_TARGETS := \
 	aapt adb aidl \
+	bcc_compat \
 	etc1tool \
 	dexdump dmtracedump \
 	fastboot \
@@ -52,6 +53,7 @@ WIN_TARGETS := \
 # build prerequisites.
 WIN_BUILD_PREREQ := \
 	acp \
+	bcc_compat \
 	llvm-rs-cc \
 	$(WIN_SDK_BUILD_PREREQ)
 
