@@ -12,14 +12,11 @@
 # made complicated by the fact the build system does not support cross-compilation.
 
 # We can only use this under Linux with the mingw32 package installed.
-ifeq ($(BUILD_OS),darwin)
-ifeq ($(strip $(shell which i586-mingw32-gcc 2>/dev/null)),)
-$(error MinGW is required to build a Windows SDK. Please install 'http://crossgcc.rts-software.org/doku.php?id=start')
+ifneq ($(shell uname),Linux)
+$(error Linux is required to create a Windows SDK)
 endif
-else
 ifeq ($(strip $(shell which i586-mingw32msvc-gcc 2>/dev/null)),)
 $(error MinGW is required to build a Windows SDK. Please 'apt-get install mingw32')
-endif
 endif
 ifeq ($(strip $(shell which unix2dos todos 2>/dev/null)),)
 $(error Need a unix2dos command. Please 'apt-get install tofrodos')
@@ -39,12 +36,10 @@ WIN_TARGETS := \
 	etc1tool \
 	dexdump dmtracedump \
 	fastboot \
-	heimdall \
 	hprof-conv \
 	llvm-rs-cc \
 	prebuilt \
 	sqlite3 \
-	heimdall \
 	zipalign \
 	$(WIN_SDK_TARGETS)
 
@@ -65,7 +60,7 @@ WIN_SDK_ZIP  := $(WIN_SDK_DIR)/$(WIN_SDK_NAME).zip
 
 $(call dist-for-goals, win_sdk, $(WIN_SDK_ZIP))
 
-.PHONY: win_sdk winsdk-tools winsdk-coretools
+.PHONY: win_sdk winsdk-tools
 
 define winsdk-banner
 $(info )
@@ -82,10 +77,6 @@ endef
 
 win_sdk: $(WIN_SDK_ZIP)
 	$(call winsdk-banner,Done)
-
-winsdk-coretools: acp
-	$(call winsdk-banner,Build Windows Core Tools)
-	$(hide) USE_MINGW=1 USE_CCACHE="" $(MAKE) PRODUCT-$(TARGET_PRODUCT)-$(strip adb fastboot heimdall) $(if $(hide),,showcommands)
 
 winsdk-tools: $(WIN_BUILD_PREREQ)
 	$(call winsdk-banner,Build Windows Tools)
