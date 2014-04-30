@@ -154,7 +154,7 @@
 	<classpathentry kind="lib" path="packages/apps/Calculator/libs/ejml-0.21.jar"/>
 	<classpathentry kind="lib" path="packages/apps/Calculator/libs/slider.jar"/>
 	<classpathentry kind="lib" path="external/google/analytics_sdk_v2/libGoogleAnalyticsV2.jar"/>
-	<classpathentry kind="lib" path="external/mokee/MoKeeHelper/MoKeeHelper/libs/dashclock-api-r1.1"/>
+	<classpathentry kind="lib" path="external/mokee/MoKeeHelper/MoKeeHelper/libs/dashclock-api-r1.1.jar"/>
 	<classpathentry kind="lib" path="out/target/common/obj/JAVA_LIBRARIES/bouncycastle_intermediates/classes-jarjar.jar"/>
 	<classpathentry kind="lib" path="out/target/common/obj/JAVA_LIBRARIES/android-common_intermediates/javalib.jar"/>
 	<classpathentry kind="lib" path="out/target/common/obj/JAVA_LIBRARIES/android-support-v4_intermediates/javalib.jar"/>
