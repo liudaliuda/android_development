@@ -157,6 +157,7 @@
 	<classpathentry kind="lib" path="external/mokee/MoKeeHelper/MoKeeHelper/libs/dashclock-api-r1.1.jar"/>
 	<classpathentry kind="lib" path="external/mokee/MoKeeSDKs/libMoKeePushService/libMoKeePushService.jar"/>
 	<classpathentry kind="lib" path="external/mokee/MoKeeSDKs/libMoKeePinYin/libMoKeePinYin.jar"/>
+	<classpathentry kind="lib" path="external/mokee/MoKeeSDKs/libPayPal/libPayPalSDK.jar"/>
 	<classpathentry kind="lib" path="out/target/common/obj/JAVA_LIBRARIES/bouncycastle_intermediates/classes-jarjar.jar"/>
 	<classpathentry kind="lib" path="out/target/common/obj/JAVA_LIBRARIES/android-common_intermediates/javalib.jar"/>
 	<classpathentry kind="lib" path="out/target/common/obj/JAVA_LIBRARIES/android-support-v4_intermediates/javalib.jar"/>
