@@ -47,6 +47,7 @@
 	<classpathentry kind="src" path="frameworks/base/media/mca/effect/java"/>
 	<classpathentry kind="src" path="frameworks/base/media/mca/filterfw/java"/>
 	<classpathentry kind="src" path="frameworks/base/media/mca/filterpacks/java"/>
+	<classpathentry kind="src" path="frameworks/base/mokee/java"/>
 	<classpathentry kind="src" path="frameworks/base/nfc-extras/java"/>
 	<classpathentry kind="src" path="frameworks/base/obex"/>
 	<classpathentry kind="src" path="frameworks/base/opengl/java"/>
@@ -132,6 +133,7 @@
 	<classpathentry kind="src" path="external/ksoap2/ksoap2-base/src/main/java"/>
 	<classpathentry kind="src" path="external/ksoap2/ksoap2-j2se/src/main/java"/>
 	<classpathentry kind="src" path="external/libphonenumber/java/src"/>
+	<classpathentry kind="src" path="external/mokee/MoKeeHelper/MoKeeHelper/src"/>
 	<classpathentry kind="src" path="external/mp4parser/isoparser/src/main/java"/>
 	<classpathentry kind="src" path="external/nist-sip/java"/>
 	<classpathentry kind="src" path="external/objenesis/main/src"/>
