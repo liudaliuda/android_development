@@ -15,6 +15,7 @@
 	<classpathentry kind="src" path="packages/apps/InCallUI/src"/>
 	<classpathentry kind="src" path="packages/apps/Launcher2/src"/>
 	<classpathentry kind="src" path="packages/apps/Mms/src"/>
+	<classpathentry kind="src" path="packages/apps/MoKeeLauncher/src"/>
 	<classpathentry kind="src" path="packages/apps/PackageInstaller/src"/>
 	<classpathentry kind="src" path="packages/apps/PhoneCommon/src"/>
 	<classpathentry kind="src" path="packages/apps/QuickSearchBox/src"/>
