@@ -17,6 +17,8 @@
 	<classpathentry kind="src" path="packages/apps/InCallUI/src"/>
 	<classpathentry kind="src" path="packages/apps/Launcher2/src"/>
 	<classpathentry kind="src" path="packages/apps/Mms/src"/>
+	<classpathentry kind="src" path="packages/apps/MoKeeSetupWizard/src"/>
+	<classpathentry kind="src" path="packages/apps/Nox/src"/>
 	<classpathentry kind="src" path="packages/apps/PackageInstaller/src"/>
 	<classpathentry kind="src" path="packages/apps/PhoneCommon/src"/>
 	<classpathentry kind="src" path="packages/apps/QuickSearchBox/src"/>
@@ -50,6 +52,7 @@
 	<classpathentry kind="src" path="frameworks/base/media/mca/effect/java"/>
 	<classpathentry kind="src" path="frameworks/base/media/mca/filterfw/java"/>
 	<classpathentry kind="src" path="frameworks/base/media/mca/filterpacks/java"/>
+	<classpathentry kind="src" path="frameworks/base/mokee/java"/>
 	<classpathentry kind="src" path="frameworks/base/nfc-extras/java"/>
 	<classpathentry kind="src" path="frameworks/base/obex"/>
 	<classpathentry kind="src" path="frameworks/base/opengl/java"/>
@@ -148,6 +151,7 @@
 	<classpathentry kind="src" path="external/libphonenumber/internal/prefixmapper/src"/>
 	<classpathentry kind="src" path="external/libphonenumber/java/src"/>
 	<classpathentry kind="src" path="external/libphonenumber/libphonenumber/src"/>
+	<classpathentry kind="src" path="external/mokee/MoKeeHelper/MoKeeHelper/src"/>
 	<classpathentry kind="src" path="external/mp4parser/isoparser/src/main/java"/>
 	<classpathentry kind="src" path="external/nist-sip/java"/>
 	<classpathentry kind="src" path="external/objenesis/main/src"/>
