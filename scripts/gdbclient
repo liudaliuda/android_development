@@ -14,7 +14,7 @@ source $ANDROID_BUILD_TOP/build/envsetup.sh
 
 function adb_get_product_device() {
   local candidate=`adb shell getprop ro.product.device | tr -d '\r\n'`
-  if [ -z $candidate ]; then
+  if [ -z "$candidate" ]; then
     candidate=`adb shell getprop ro.hardware | tr -d '\r\n'`
   fi
   echo $candidate
@@ -68,6 +68,10 @@ function gdbclient() {
   fi
 
   local OUT_ROOT="$ROOT/out/target/product/$DEVICE"
+  if [[ ! -d "$OUT_ROOT" && -n "$OUT" ]]; then
+    # The case where OUT_DIR_COMMON_BASE is used
+    OUT_ROOT="$OUT"
+  fi
   local SYMBOLS_DIR="$OUT_ROOT/symbols"
   local IS_TAPAS_USER="$(get_build_var TARGET_BUILD_APPS)"
   local TAPAS_SYMBOLS_DIR=
