@@ -58,11 +58,11 @@ function gdbclient() {
 
 
   if [[ -z "$DEVICE" || ! -d "$ROOT/out/target/product/$DEVICE" ]]; then
-    if [ -z "$CM_BUILD" ]; then
+    if [ -z "$MK_BUILD" ]; then
       echo "Error: Unable to get device name. Please check if device is connected and ANDROID_SERIAL is set."
       return -2
     fi
-    DEVICE=$CM_BUILD
+    DEVICE=$MK_BUILD
   fi
 
   if [ -n "$2" ]; then
